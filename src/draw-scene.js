@@ -1,3 +1,5 @@
+
+import { mat4 } from "gl-matrix";
 function drawScene(gl, programInfo, buffers){
     gl.clearColor(0.0, 0.0, 0.0, 0.0);
     gl.clearDepth(1.0);

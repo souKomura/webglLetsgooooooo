@@ -1,7 +1,6 @@
 
 import {initBuffers} from "./init-buffers.js";
 import {drawScene} from "./draw-scene.js";
-import { mat4 } from "gl-matrix";
 
 function loadShader(gl, type, source){
     const shader = gl.createShader(type);
